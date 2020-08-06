@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Next Gen Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="https://use.typekit.net/phm1ris.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class='ribbon'>
+        <div style='margin:0' class='contentinside'>
+            <a>We are looking for writers from all over the world !</a>
+        </div>
+    </div>
+    <h1>TODAY'S GOOD READS</h1>
+    <div style="background-color:#333" class="row">
+        <article style='color:white' class="column">
+            <img class=article1
+                src='https://images.unsplash.com/photo-1519345419007-46492d3a77b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80' />
+            <h3>Eco-Friendly Brands to Show Your 'Green' Spirit</h3>
+            <p>Written By: Bodhana Sivagurunathan</p>
+        </article>
+        <article style='background-color: #fffbf2;color:#333;border-top: 3px dashed #333;border-bottom: 3px dashed #333'
+            class="column">
+            <img class=article1
+                src='https://images.unsplash.com/photo-1589767521746-41975790a09a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80' />
+            <h3>Mapping the Trash, Recycling, and Compost Bins in Urban Hotspots</h3>
+            <p style='color:#333'>Written By: Bodhana Sivagurunathan</p>
+        </article>
+        <article class="column">
+            <img class=article1 src='hotel.jpg' />
+            <h3>The Most Sustainable Hotels and Resorts Worldwide</h3>
+            <p>Written By: Bodhana Sivagurunathan</p>
+        </article>
+        </section>
+    </div>
+    <footer class="row">
+        <section class="column">
+            <a href=""><img class='instagram hover'
+                    src='Instagram.png' /></a>
+            <a href=""><img class='twitter hover'
+                    src='twitter.png' /></a>
+            <a href=""><img class='facebook hover'
+                    src='facebook.png' /></a>
+            <a href="index.html"><img class='logo3 hover'
+                    src='logo2.png' /></a>
+        </section>
+        <section>
+            <h5>THE NEXT GEN LIFESTYLE</h5>
+        </section>
+    </footer>
+    <nav>
+        <ul id='nav' class='nav'>
+            <li><a href="index.html"><img class='leftalign'
+                        src="logo2.png" /></a>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class = 'active' href="journal.html">Journal</a></li>
+            <li><a href="kidstalk.html">Kids</a></li>
+            <li><a href="ourapps.html">Apps</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href=""><img class='rightalign'
+                        src="search.png" /></a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () { myFunction() };
+
+    // Get the navbar
+    var navbar = document.getElementById("nav");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+</html>
